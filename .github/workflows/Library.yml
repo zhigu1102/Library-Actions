@@ -2,8 +2,8 @@ name: Library
 
 on:
   workflow_dispatch:
-  # push:
-  #   branches: [ main ]
+   push:
+     branches: [ main ]
 
   #schedule:
   # Github Action 使用世界标准时间（UTC），北京时间（UTC+8）转换为世界标准时需要减去8小时
